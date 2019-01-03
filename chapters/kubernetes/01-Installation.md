@@ -2,6 +2,7 @@
 
 * Setting up control plane on [Amazon Elastic Container Service for Kubernetes (Amazon EKS)](https://aws.amazon.com/eks/)
   * [Getting Started with Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html)
+  * [Manage Amazon EKS with Terraform](https://learn.hashicorp.com/terraform/aws/eks-intro)
 * Setting up control plane on [Amazon Elastic Container Service (Amazon ECS)](https://aws.amazon.com/ecs/) using [kops](https://github.com/kubernetes/kops)
 * Setting up worker nodes using [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
 

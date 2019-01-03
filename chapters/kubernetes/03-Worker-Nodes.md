@@ -9,3 +9,12 @@ Links:
 <sup><a name="bootstrap_script">1</a></sup> [bootstrap script](https://github.com/awslabs/amazon-eks-ami/blob/master/files/bootstrap.sh)
 
 <sup><a name="launch_worker_nodes">2</a></sup> [Launching Amazon EKS Worker Nodes](https://docs.aws.amazon.com/eks/latest/userguide/launch-workers.html)
+
+## Rolling Updates
+
+Is it possible to execute `kubectl drain <node>` before removing the worker node?
+
+Sequence for rolling update of worker nodes should be:
+1. Start new worker node
+1. Drain old worker node
+1. Delete old worker node
