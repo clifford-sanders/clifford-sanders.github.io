@@ -4,20 +4,7 @@ Since 2004 I've been working as Developer, Build and Release Engineer and IT Inf
 
 ## Topics
 
-### Kubernetes
-
-> [Kubernetes (k8s)](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications.
-
-#### Installation
-
-* Setting up control plane on [Amazon Elastic Container Service for Kubernetes (Amazon EKS)](https://aws.amazon.com/eks/)
-* Setting up control plane on [Amazon Elastic Container Service (Amazon ECS)](https://aws.amazon.com/ecs/) using [kops](https://github.com/kubernetes/kops)
-* Setting up worker nodes using [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
-* Setting up [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-
-#### Backup and Restore
-
-> [Heptio Ark](https://github.com/heptio/ark) is a utility for managing disaster recovery, specifically for your Kubernetes cluster resources and persistent volumes. 
+* [Kubernetes](chapters/kubernetes/00-Outline.md)
 
 #### Disable swapping
 
