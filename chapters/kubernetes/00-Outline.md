@@ -4,9 +4,9 @@
 
 ## Chapters
 
-* [01 Installation](01-Installation.md)
-* [02 Backup and Restore](02-Backup-and-Restore.md)
-* [03 Worker Nodes](03-Worker-Nodes.md)
+* [01 Installation](Installation.md)
+* [02 Backup and Restore](Backup-and-Restore.md)
+* [03 Worker Nodes](Worker-Nodes.md)
 * [04 Service Mesh](Service-Mesh.md)
 * [05 Security](Security.md)
 
