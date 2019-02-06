@@ -2,6 +2,10 @@
 
 Since 2004 I've been working as Developer, Build and Release Engineer and IT Infrastructure Engineer and always wanted document everything that I learned while solving challenges.
 
+Please don't expect detailed well written texts as they serve only as notes.
+
+I could have put them in my Evernote but think that some information can be valuable for someone.
+
 ## Topics
 
 * [Kubernetes](chapters/kubernetes/00-Outline.md)
