@@ -9,6 +9,7 @@
 * [03 Worker Nodes](Worker-Nodes.md)
 * [04 Service Mesh](Service-Mesh.md)
 * [05 Security](Security.md)
+* [06 Scaling](Scaling.md)
 
 ## Open Topics
 
