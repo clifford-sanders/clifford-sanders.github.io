@@ -1,5 +1,21 @@
 # Scaling
 
+Kubernetes supports three different kinds of autoscalers - cluster, horizontal and vertical.
+
+* Autoscaling Kubernetes clusters
+* Vertical pod autoscaler
+* Horizontal pod autoscaler
+
+## Cluster Autoscaler
+
+Taken from [Autoscaling Kubernetes clusters][12].
+
+The Cluster Autoscaler is a tool that automatically right sizes your Kubernetes cluster. It runs periodically and reacts to the following events:
+
+* there are pods that failed to run in the cluster due to insufficient resources, usually these pods are in `Pending` state
+* some nodes in the cluster are underutilized for a configurable extended period of time, so they can be deleted and their pods easily placed on other existing nodes.
+
+--------------------
 Scale Kubernetes workloads managed by Amazon EKS in response to custom metrics.
 
 For many workloads, it’s crucial to be able to define application scaling based
@@ -60,6 +76,8 @@ The [cluster autoscaler on AWS][7] scales worker nodes within any specified auto
 
 * [Cluster Autoscaler in Amazon EKS][8]
 * [Helm - cluster-autoscaler][9]
+* [Blog - Horizontally autoscale Kubernetes deployments on custom metrics][10]
+* [Helm - Prometheus Adapter][11]
 
 [1]:https://aws.amazon.com/blogs/opensource/horizontal-pod-autoscaling-eks/
 [2]:https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
@@ -70,3 +88,6 @@ The [cluster autoscaler on AWS][7] scales worker nodes within any specified auto
 [7]:https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md#cluster-autoscaler-on-aws
 [8]:https://medium.com/@alejandro.millan.frias/cluster-autoscaler-in-amazon-eks-d9f787176519
 [9]:https://github.com/helm/charts/tree/master/stable/cluster-autoscaler
+[10]:https://banzaicloud.com/blog/k8s-horizontal-pod-autoscaler/
+[11]:https://github.com/helm/charts/tree/master/stable/prometheus-adapter
+[12]:https://banzaicloud.com/blog/k8s-cluster-autoscaler/
