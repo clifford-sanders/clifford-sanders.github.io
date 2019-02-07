@@ -10,6 +10,7 @@
 * [04 Service Mesh](Service-Mesh.md)
 * [05 Security](Security.md)
 * [06 Scaling](Scaling.md)
+* [07 Helm](Helm.md)
 
 ## Open Topics
 
