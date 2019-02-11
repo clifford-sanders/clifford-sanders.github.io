@@ -27,6 +27,13 @@ Helm is also built on two major architectural components:
 
 Both the Helm client and Tiller are written in Go, and use gRPC to interact. Tiller (as the server component running inside Kubernetes) provides a gRPC server in order to connect with the client, and uses the k8s client library to communicate with Kubernetes. It does not require it’s own database, since the information is stored within Kubernetes as ConfigMaps.
 
+## Plugins
+
+```
+# diff - Preview helm upgrade changes as a diff
+helm plugin install https://github.com/databus23/helm-diff --version v2.11.0+3
+```
+
 ## Chart Repositories
 
 <dl>
