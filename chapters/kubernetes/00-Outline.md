@@ -12,10 +12,19 @@
 * [06 Scaling](Scaling.md)
 * [07 Helm](Helm.md)
 * [08 Helmfile](Helmfile.md)
+* [09 Chaos Engineering](Chaos-Engineering.md)
+* [10 Operators](Operators.md)
 
 ## Open Topics
 
-* How to store and use credentials
-  Jenkins gets credentials on startup from AWS parameter store. How can wwe make sure that only Jenkins can access these credentials.
 * What is actually happening when I delete a node?
+
+## More Reading
+
 * [Amazon EKS Workshop](https://eksworkshop.com)
+* [Awsome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes#testing)
+
+## Videos
+
+* [June 2018 Online Meetup: Kubernetes Networking Master Class](https://www.youtube.com/watch?v=GXq3FS8M_kw)
+* [Kubernetes Master Class: Building an Enterprise Kubernetes Strategy](https://www.youtube.com/watch?v=djTFhT33cz0)

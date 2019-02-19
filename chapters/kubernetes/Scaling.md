@@ -78,6 +78,7 @@ The [cluster autoscaler on AWS][7] scales worker nodes within any specified auto
 * [Helm - cluster-autoscaler][9]
 * [Blog - Horizontally autoscale Kubernetes deployments on custom metrics][10]
 * [Helm - Prometheus Adapter][11]
+* [Why and how do we run Kubernetes on the Spot instances][13]
 
 [1]:https://aws.amazon.com/blogs/opensource/horizontal-pod-autoscaling-eks/
 [2]:https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
@@ -91,3 +92,4 @@ The [cluster autoscaler on AWS][7] scales worker nodes within any specified auto
 [10]:https://banzaicloud.com/blog/k8s-horizontal-pod-autoscaler/
 [11]:https://github.com/helm/charts/tree/master/stable/prometheus-adapter
 [12]:https://banzaicloud.com/blog/k8s-cluster-autoscaler/
+[13]:https://medium.com/preply-engineering/why-and-how-do-we-run-kubernetes-on-the-spot-instances-c88d32fb9df3

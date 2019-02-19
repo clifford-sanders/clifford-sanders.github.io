@@ -15,3 +15,7 @@ Links:
     > Kiam bridges Kubernetes’ Pods with Amazon’s Identity and Access Management (IAM). It makes it easy to assign short-lived AWS security credentials to your application.
   * [CNI Plugin](https://github.com/aws/amazon-vpc-cni-k8s)
   > The open-sourced project Amazon Virtual Private Cloud (VPC) Container Networking Interface (CNI) plugin for Kubernetes allowed ClearScale to assign the “real” IP Address to the Kubernetes Pods from the VPC network.
+  * [EKS IAM Roles for Pods](https://github.com/aws/containers-roadmap/issues/23)
+* [Defining Security for a Kubernetes Deployment](https://www.aporeto.com/wp-content/themes/aporeto/files/Kubernetes-Security-EKS.pdf)
+* [Can kubernetes keep a secret? It all depends what tool you’re using.](https://blog.solutotlv.com/can-kubernetes-keep-a-secret/)
+* [helm-secrets - Plugin for secrets management in Helm](https://github.com/futuresimple/helm-secrets#plugin-for-secrets-management-in-helm)
