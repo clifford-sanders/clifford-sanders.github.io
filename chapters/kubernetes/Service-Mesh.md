@@ -2,7 +2,7 @@
 
 [Service mesh data plane vs. control plane][1]
 [Microservices Patterns With Envoy Sidecar Proxy: The series][2]
-
+[Phil Calçado - Pattern: Service Mesh][4]
 ## Envoy
 
 [Envoy][3] Proxy is a small, lightweight, native/C++ application that enables the following features (and more!):
@@ -26,3 +26,4 @@
 [1]:https://blog.envoyproxy.io/service-mesh-data-plane-vs-control-plane-2774e720f7fc
 [2]:https://blog.christianposta.com/microservices/00-microservices-patterns-with-envoy-proxy-series/
 [3]:https://www.envoyproxy.io
+[4]:http://philcalcado.com/2017/08/03/pattern_service_mesh.html

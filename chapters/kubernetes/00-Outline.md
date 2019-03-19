@@ -14,6 +14,7 @@
 * [08 Helmfile](Helmfile.md)
 * [09 Chaos Engineering](Chaos-Engineering.md)
 * [10 Operators](Operators.md)
+* [11 Monitoring]()
 
 ## Open Topics
 
@@ -22,9 +23,19 @@
 ## More Reading
 
 * [Amazon EKS Workshop](https://eksworkshop.com)
-* [Awsome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes#testing)
+* [Awsome Kubernetes - Testing](https://github.com/ramitsurana/awesome-kubernetes#testing)
+* [Kubernetes: The Complete Guide](https://www.aquasec.com/wiki/display/containers/Kubernetes+Guide)
+  * [Kubernetes Operations](https://www.aquasec.com/wiki/display/containers/Kubernetes+Operations)
+    * [Kubernetes in Production](https://www.aquasec.com/wiki/display/containers/Kubernetes+in+Production)
+      * Distribution of pods across AZs
+      * Creating and maintaining TLS certificates
+      * set `--kube-reserved` and `--system-reserved` in kublet
+      * enforce resource limits
+      * set default limits
+      * add a small [systemd unit to run kubectl drain on shutdown](https://github.com/zalando-incubator/kubernetes-on-aws/blob/449f8f3bf5c60e0d319be538460ff91266337abc/cluster/userdata-worker.yaml#L92)
 
 ## Videos
 
 * [June 2018 Online Meetup: Kubernetes Networking Master Class](https://www.youtube.com/watch?v=GXq3FS8M_kw)
 * [Kubernetes Master Class: Building an Enterprise Kubernetes Strategy](https://www.youtube.com/watch?v=djTFhT33cz0)
+* [Zalando - Kubernetes Deployments: A “Hands-Off” Approach](https://www.youtube.com/watch?v=e0DruWvY-ME)

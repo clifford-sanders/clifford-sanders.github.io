@@ -12,7 +12,8 @@ Links:
 * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [Configure kubectl for Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/configure-kubectl.html)
 * [Install kubectl binary using curl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-binary-using-curl)
-
+* [Ahmet Alp Balkan - Mastering the KUBECONFIG file](https://ahmet.im/blog/mastering-kubeconfig/)
+* [kubectx](https://github.com/ahmetb/kubectx#kubectx1)
 
 1. Download the latest release.
   ```
