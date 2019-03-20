@@ -19,3 +19,27 @@ Links:
 * [Defining Security for a Kubernetes Deployment](https://www.aporeto.com/wp-content/themes/aporeto/files/Kubernetes-Security-EKS.pdf)
 * [Can kubernetes keep a secret? It all depends what tool you’re using.](https://blog.solutotlv.com/can-kubernetes-keep-a-secret/)
 * [helm-secrets - Plugin for secrets management in Helm](https://github.com/futuresimple/helm-secrets#plugin-for-secrets-management-in-helm)
+* [11 Ways (Not) to Get Hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/)
+
+## Hardening
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: security-context-demo
+  annotations:
+    seccomp.security.alpha.kubernetes.io/pod: runtime/default
+spec:
+  securityContext:
+    privileged: false
+    runAsNonRoot: true
+    runUser: 10001
+    readOnlyRootFilesystem: true
+    allowPrivilegeEscalation: false
+```
+
+* [containers[] .securityContext .privileged == true](https://kubesec.io/basics/containers-securitycontext-privileged-true/)
+* [containers[] .securityContext .runAsNonRoot == true](https://kubesec.io/basics/containers-securitycontext-runasnonroot-true/)
+* [containers[] .securityContext .readOnlyRootFilesystem == true](https://kubesec.io/basics/containers-securitycontext-readonlyrootfilesystem-true/)
+* [containers[] .securityContext .runAsUser > 10000](https://kubesec.io/basics/containers-securitycontext-runasuser/)
