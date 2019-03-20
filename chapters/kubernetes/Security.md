@@ -2,9 +2,12 @@
 
 Links:
 
-* https://github.com/aquasecurity/kube-bench
-* https://www.cisecurity.org/benchmark/kubernetes/
-* https://www.clearscale.com/blog/securing-aws-eks-with-calico-and-kube2iam/
+* [kube-bench](https://github.com/aquasecurity/kube-bench)
+  > kube-bench is a Go application that checks whether Kubernetes is deployed
+  securely by running the checks documented in the [CIS Kubernetes
+  Benchmark](https://www.cisecurity.org/benchmark/kubernetes/).
+* [CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes/)
+* [Securing AWS EKS with Calico and Kube2iam](https://www.clearscale.com/blog/securing-aws-eks-with-calico-and-kube2iam/)
   * [Calico](https://docs.projectcalico.org/v2.5/reference/public-cloud/aws)
   > Project Calico aims to provide robust security solutions for modern containerized implementations.  As such, ClearScale chose to leverage the Network Policy Engine feature because it allowed network isolation and segmentation inside of the Kubernetes clusters and similar to what AWS Security Groups accomplishes.
   * [Kube2IAM](https://github.com/jtblin/kube2iam)
