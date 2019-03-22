@@ -35,7 +35,7 @@ use [Helm chart][6]
 ### Run & expose php-apache server
 
 Start a deployment running the image and expose it as a service:
-```
+```console
 $ kubectl run php-apache \
 --image=k8s.gcr.io/hpa-example \
 --requests=cpu=200m \
@@ -54,8 +54,8 @@ between 1 and 5 replicas of the Pods.
 HPA will increase and decrease the number of replicas (via the deployment) to
 maintain an average CPU utilization across all Pods of 50% 
 
-```bash
-kubectl autoscale deployment php-apache \
+```console
+$ kubectl autoscale deployment php-apache \
 --cpu-percent=50 \
 --min=1 \
 --max=5
@@ -63,7 +63,7 @@ kubectl autoscale deployment php-apache \
 horizontalpodautoscaler.autoscaling/php-apache autoscaled
 ```
 
-```
+```console
 $ kubectl get hpa
 NAME         REFERENCE               TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
 php-apache   Deployment/php-apache   <unknown>/50%   1         5         0          24s
