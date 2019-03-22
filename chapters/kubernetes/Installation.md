@@ -16,19 +16,19 @@ Links:
 * [kubectx](https://github.com/ahmetb/kubectx#kubectx1)
 
 1. Download the latest release.
-  ```
+  ```sh
   curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectl
   ```
   To download a specific version, replace the `$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)` portion of the command with the specific version.
   For example, to download version v1.11.5 on macOS, type:
-  ```
+  ```sh
   curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.11.5/bin/darwin/amd64/kubectl
   ```
 1. Make the kubectl binary executable.
-  ```
+  ```sh
   chmod +x ./kubectl
   ```
 1. Move the binary in to your PATH.
-  ```
+  ```sh
   sudo mv ./kubectl /usr/local/bin/kubectl
   ```
