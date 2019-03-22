@@ -26,7 +26,7 @@ Links:
 
 ## Hardening
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -46,3 +46,7 @@ spec:
 * [containers[] .securityContext .runAsNonRoot == true](https://kubesec.io/basics/containers-securitycontext-runasnonroot-true/)
 * [containers[] .securityContext .readOnlyRootFilesystem == true](https://kubesec.io/basics/containers-securitycontext-readonlyrootfilesystem-true/)
 * [containers[] .securityContext .runAsUser > 10000](https://kubesec.io/basics/containers-securitycontext-runasuser/)
+
+## Namespace Mapping
+
+[Hardening Docker Hosts with User Namespaces](https://www.linux.com/blog/learn/2017/8/hardening-docker-hosts-user-namespaces)

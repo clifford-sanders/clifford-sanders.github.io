@@ -54,8 +54,8 @@ between 1 and 5 replicas of the Pods.
 HPA will increase and decrease the number of replicas (via the deployment) to
 maintain an average CPU utilization across all Pods of 50% 
 
-```
-$ kubectl autoscale deployment php-apache \
+```console
+kubectl autoscale deployment php-apache \
 --cpu-percent=50 \
 --min=1 \
 --max=5
