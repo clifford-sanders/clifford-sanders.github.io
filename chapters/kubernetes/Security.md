@@ -24,6 +24,10 @@ Links:
 * [helm-secrets - Plugin for secrets management in Helm](https://github.com/futuresimple/helm-secrets#plugin-for-secrets-management-in-helm)
 * [11 Ways (Not) to Get Hacked](https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked/)
 
+## Blogs and Articles
+* [Raesene's Ramblings](https://raesene.github.io)
+* [Chris Binniee](https://www.devsecops.cc)
+
 ## Hardening
 
 ```yaml
